@@ -1,0 +1,86 @@
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle-switch {
+  display: inline-block;
+  background: var(--cor-principal);
+  border-radius: 16px;
+  width: 42px;
+  height: 28px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+.toggle-switch:before, .toggle-switch:after {
+  content: "";
+}
+.toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+.toggle:hover .toggle-switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+}
+.toggle-checkbox:checked + .toggle-switch {
+  background: var(--cor-secundaria);
+}
+.toggle-checkbox:checked + .toggle-switch:before {
+  left: 18px;
+}
+
+.toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+}
+
+.radio-inputs .radio {
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.name {
+  padding: 12px 16px;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all .15s ease-in-out;
+  border: 1px solid var(--cor-principal);
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: var(--cor-principal);
+  color: var(--cor-branco);
+  font-weight: 500;
+}

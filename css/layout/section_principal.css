@@ -1,0 +1,14 @@
+.sect_principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 48px;
+    margin: auto;
+    height: 60vh;
+}
+
+.img_principal {
+    width: 30vw;
+    height: auto;
+}
