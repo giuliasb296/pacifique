@@ -3,9 +3,10 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 48px;
+    padding: 48px 0;
     margin: auto;
-    height: 60vh;
+
+    border-bottom: 1px solid #4e7ec546;
 }
 
 .img_principal {

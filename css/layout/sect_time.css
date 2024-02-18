@@ -1,17 +1,12 @@
 .sect_time {
-    border: 1px solid var(--cor-principal);
-    border-radius: 8px;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 24px;
+    align-items: stretch;
+    justify-content: space-between;
 
     margin: 48px auto;
 
-    max-width: 600px;
+    gap: 24px;
+    max-width: 1200px;
 }
 
 .art_time {
@@ -22,6 +17,15 @@
     gap: 24px;
 
     font-size: 14px;
+
+    border: 1px solid var(--cor-principal);
+    border-radius: 8px;
+
+    padding: 24px;
+    text-align: center;
+
+    width: 50%;
+    height: 190px;
 }
 
 .linha {
