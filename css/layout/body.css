@@ -1,0 +1,9 @@
+body::-webkit-scrollbar {
+    width: 12px; 
+}
+  
+  
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--cor-principal) 40%, var(--cor-secundaria) 60%);
+    border-radius: 4px;       
+    };
