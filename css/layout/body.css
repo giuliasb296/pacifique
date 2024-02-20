@@ -1,8 +1,10 @@
 body::-webkit-scrollbar {
     width: 12px; 
+    background: linear-gradient(180deg, var(--cor-branco) 40%, #fff 60%);
 }
   
   
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, var(--cor-secundaria) 40%, var(--cor-principal) 60%);       
+    background: linear-gradient(180deg, var(--cor-secundaria) 40%, var(--cor-principal) 60%);
+    
     };
