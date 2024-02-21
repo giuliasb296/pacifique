@@ -6,5 +6,4 @@ body::-webkit-scrollbar {
   
 body::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg, var(--cor-secundaria) 40%, var(--cor-principal) 60%);
-    
-    };
+};

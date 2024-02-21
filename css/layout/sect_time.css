@@ -3,7 +3,7 @@
     align-items: stretch;
     justify-content: space-between;
 
-    margin: 48px auto;
+    margin: 0 auto 48px auto;
 
     gap: 24px;
     max-width: 1200px;
@@ -25,7 +25,7 @@
     text-align: center;
 
     width: 50%;
-    height: 190px;
+    height: 220px;
 }
 
 .linha {

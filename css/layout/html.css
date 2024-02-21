@@ -1,3 +1,4 @@
 html {
     background: linear-gradient(180deg, var(--cor-branco) 40%, #fff 60%);
+    scroll-behavior: smooth;
 }
