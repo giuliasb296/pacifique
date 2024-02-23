@@ -24,8 +24,30 @@
     padding: 24px;
     text-align: center;
 
-    width: 50%;
-    height: 220px;
+    width: 65%;
+}
+
+.art_tarefa {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    border: 1px solid var(--cor-principal);
+    border-radius: 8px;
+    
+    padding: 24px;
+    text-align: center;
+
+    width: 35%;
+
+    position: relative;
+}
+
+.art_tarefa > button {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    left: 24px;
 }
 
 .linha {

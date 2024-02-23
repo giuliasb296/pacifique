@@ -41,13 +41,16 @@
   margin-bottom: 16px;
 }
 
+.font-subtitle {
+  font-size: 32px;
+}
+
 .font-number {
   font-size: 112px;
-  margin: 16px 0;
 }
 
 .font-regular {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .azul {
